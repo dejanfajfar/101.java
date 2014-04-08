@@ -1,4 +1,24 @@
 101.java
 ========
 
-A simple introduction project to the OO concepts of Java
+A fast startup introduction to JAVA and beyond
+
+## Lesson 1
+
++ Objects
++ Object state
++ Inheritance
++ Composition
+
+
+## Lesson N
+
++ DRY
++ Encapsulate what changes
++ Open close design principle
++ Single responsibility
++ Dependency injection or Inversion principle
++ Composition over inheritance
++ Liskov Substitution principle
++ Interface segregation principle
++ Program for interface not implementation
