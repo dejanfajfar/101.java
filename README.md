@@ -10,7 +10,6 @@ A fast startup introduction to JAVA and beyond
 + Inheritance
 + Composition
 
-
 ## Lesson N
 
 + DRY
@@ -22,3 +21,4 @@ A fast startup introduction to JAVA and beyond
 + Liskov Substitution principle
 + Interface segregation principle
 + Program for interface not implementation
++ Use predicates instead of if statements

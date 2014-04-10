@@ -1,6 +1,6 @@
-package com.fajfar.java101.lesson1.noInterface;
+package com.fajfar.java101.lesson1.withInterfaces;
 
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
 
 public class Car {
     public static final String ENGINE_NULL = "The provided engine can not be null";
@@ -88,7 +88,7 @@ public class Car {
         if(model == null && model.isEmpty()){
             return;
         }
-        
+
         this.model = model;
     }
 
