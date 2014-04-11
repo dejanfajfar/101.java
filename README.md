@@ -10,6 +10,11 @@ A fast startup introduction to JAVA and beyond
 + Inheritance
 + Composition
 
+## Lesson 2
+
++ Object inheritance
++ Factory pattern
+
 ## Lesson N
 
 + DRY

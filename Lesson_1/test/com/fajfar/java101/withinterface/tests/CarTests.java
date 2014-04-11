@@ -45,6 +45,9 @@ public class CarTests {
                 return parameter / 100;
             }
         });
+
+        when(testTransmission.calculateRpm(anyInt())).thenCallRealMethod();
+
         when(testTransmission.calculateRpm(anyInt())).thenAnswer(new Answer<Integer>() {
             @Override
             public Integer answer(InvocationOnMock invocationOnMock) throws Throwable {
