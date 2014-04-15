@@ -15,19 +15,17 @@ import static java.lang.String.format;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
-public class FactoryTests {
+public abstract class FactoryTests {
 
     private final String TEST_STRING = "Test";
 
-    private Factory testFactory;
+    protected Factory testFactory;
 
     @Rule
     public ExpectedException exception = ExpectedException.none();
 
     @Before
-    public void setUp(){
-        testFactory = new ReflectiveFactory();
-    }
+    public abstract void setUp();
 
     @Test
     public void Create_ClassA(){

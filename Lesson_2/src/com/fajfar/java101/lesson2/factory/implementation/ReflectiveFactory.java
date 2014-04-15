@@ -10,8 +10,6 @@ import java.util.Hashtable;
 
 public class ReflectiveFactory implements Factory {
 
-    public static final String UNKNOWN_TYPE = "Type %s is not known to the factory";
-    public static final String COMPLEX_PARAM_INVALID = "Provided parameters for this class should be <int>, <String>";
 
     private Hashtable<Class, Initializer> specialCases;
 

@@ -14,6 +14,10 @@ A fast startup introduction to JAVA and beyond
 
 + Object inheritance
 + Factory pattern
++ Singleton pattern
++ Observer pattern
++ State pattern
++ Some Java8 lambda goodness
 
 ## Lesson N
 
