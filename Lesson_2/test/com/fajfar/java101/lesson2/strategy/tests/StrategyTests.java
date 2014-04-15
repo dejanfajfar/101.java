@@ -1,8 +1,8 @@
-package com.fajfar.java101.lesson2.state.tests;
+package com.fajfar.java101.lesson2.strategy.tests;
 
-import com.fajfar.java101.lesson2.state.RemoveVowels;
-import com.fajfar.java101.lesson2.state.UpperCaseWriter;
-import com.fajfar.java101.lesson2.state.Writer;
+import com.fajfar.java101.lesson2.strategy.RemoveVowels;
+import com.fajfar.java101.lesson2.strategy.UpperCaseWriter;
+import com.fajfar.java101.lesson2.strategy.Writer;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.List;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class StateTests {
+public class StrategyTests {
 
     @Test
     public void StateTest(){
