@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SalaryManager {
     private SalaryManager(){
-        this.salaryList = new Hashtable<String, Double>();
+        this.salaryList = new Hashtable<>();
         this.totalPayout = 0d;
     }
 

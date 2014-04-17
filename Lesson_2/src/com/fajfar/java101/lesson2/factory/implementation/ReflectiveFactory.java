@@ -7,14 +7,15 @@ import com.fajfar.java101.lesson2.factory.model.ComplexClass;
 
 import java.lang.reflect.Constructor;
 import java.util.Hashtable;
+import java.util.Map;
 
 public class ReflectiveFactory implements Factory {
 
 
-    private Hashtable<Class, Initializer> specialCases;
+    private Map<Class, Initializer> specialCases;
 
     public ReflectiveFactory(){
-        specialCases = new Hashtable<Class, Initializer>();
+        specialCases = new Hashtable<>();
         registerSpecialCases();
     }
 

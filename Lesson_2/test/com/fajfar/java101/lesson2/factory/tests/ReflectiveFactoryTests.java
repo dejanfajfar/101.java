@@ -7,4 +7,5 @@ public class ReflectiveFactoryTests extends FactoryTests {
     public void setUp() {
         this.testFactory = new ReflectiveFactory();
     }
+
 }

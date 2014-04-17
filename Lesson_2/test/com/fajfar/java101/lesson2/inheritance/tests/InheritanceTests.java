@@ -41,7 +41,7 @@ public class InheritanceTests {
 
     @Test
     public void When_CreatingSon_Then_Age25(){
-        Son testObject = new Son();
+        Grandfather testObject = new Son();
         assertThat(testObject.getAge(), is(25));
     }
 }

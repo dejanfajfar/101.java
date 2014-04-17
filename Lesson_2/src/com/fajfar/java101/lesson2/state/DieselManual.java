@@ -7,7 +7,7 @@ public class DieselManual extends Car {
 
     public DieselManual() {
         super("Diesel", 5.7, false);
-        this.maxGear = 5;
+        this.maxGear = 6;
         this.currentGear = 0;
     }
 
@@ -20,6 +20,9 @@ public class DieselManual extends Car {
 
     @Override
     public int shiftDown() {
-        return 0;
+        if(this.currentGear >= 1){
+            this.currentGear--;
+        }
+        return this.currentGear;
     }
 }
